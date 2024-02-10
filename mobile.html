@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gladiator.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Gladiator.com</h1>
+        <div class="menu">
+            <div class="dropdown">
+                <button class="dropbtn" id="btn1">Categories</button>
+                <div class="dropdown-content">
+                    <a href="Electronics.html">Electronics</a>
+                    <a href="mobile.html">Mobiles</a>
+                    <a href="fashion.html">Fashion</a>
+                    <a href="laptop.html">Laptop</a>
+                </div>
+
+            </div>
+            <a href="#ab">About Us</a>
+            <a href="index.html">Home Page</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="btn2">Profile</button>
+                <div class="dropdown-content">
+                    <a href="#">Credentials</a>
+                    <a href="#">My Orders</a>
+                    <a href="#">LogOut</a>
+                </div>
+            </div>
+            <input type="text" placeholder="Search Here">
+            <a href="#">Search</a>
+
+
+
+        </div>
+
+
+    </div>
+    <div id="p">
+        <div class="video">
+            <iframe width="600" height="450" src="https://www.youtube.com/embed/IY4x85zqoJM" title="Hello Apple Vision Pro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="https://m.media-amazon.com/images/G/31/img22/Wireless/Meghana/Neo9Pro/Pre/Post/D112032990_WLD---BAU---iQOO-Neo-9-pro---Design-SIM_Homepage_1400x800._CB582365801_.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://m.media-amazon.com/images/G/31/img23/Wireless/Xiaomi/JanArt24/MSO/POCO/BANHITAGW/PEAGWBANHITA/GWBANHITA2/FINALBANHITA/D116414744_LAVA_NewLaunch_Yuva3_1400x800._CB582044129_.jpg"
+                    alt="">
+            </div>
+            <div class="slide">
+                <img src="https://m.media-amazon.com/images/G/31/img23/Wireless/Samsung/SamsungBAU/Eureka_Launch/Sale/9thFeb/1400x800_1._CB582239833_.gif" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://m.media-amazon.com/images/G/31/img23/Wireless/OnePlus/OnePlus12R/GW/7Feb/D111800050_1400x800_3._CB582037191_.jpg"
+                    alt="">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+</div>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+
+    <div class="pallet">
+        <div class="imgp">
+            <img src="https://m.media-amazon.com/images/I/81SigpJN1KL._SX679_.jpg">
+        </div>
+        <div>
+            <h1>Apple iPhone 15 Pro (128 GB) - Blue Titanium</h1>
+            <p>
+            <ul>
+                <li>
+                    FORGED IN TITANIUM — iPhone 15 Pro has a strong and light aerospace-grade titanium design with a
+                    textured matte-glass back. It also features a Ceramic Shield front that’s tougher than any
+                    smartphone glass. And it’s splash, water, and dust resistant.
+                </li>
+                <li>
+                    ADVANCED DISPLAY — The 6.1” Super Retina XDR display with ProMotion ramps up refresh rates to 120Hz
+                    when you need exceptional graphics performance. Dynamic Island bubbles up alerts and Live
+                    Notifications. Plus, with Always-On display, your Lock Screen stays glanceable, so you don’t have to
+                    tap it to stay in the know.
+                </li>
+                <li>
+                    GAME-CHANGING A17 PRO CHIP — A Pro-class GPU makes mobile games feel so immersive, with rich
+                    environments and realistic characters. A17 Pro is also incredibly efficient and helps to deliver
+                    amazing all-day battery life.
+                </li>
+                <li>
+                    POWERFUL PRO CAMERA SYSTEM — Get incredible framing flexibility with 7 pro lenses. Capture super
+                    high-resolution photos with more color and detail using the 48MP Main camera. And take sharper
+                    close-ups from farther away.
+                </li>
+
+            </ul>
+            </p>
+            <h1>Price: ₹1,27,990</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="pallet">
+        <div class="imgp">
+            <img src="https://m.media-amazon.com/images/I/61VfL-aiToL._SX569_.jpg">
+        </div>
+        <div>
+            <h1>Samsung Galaxy S23 Ultra 5G (Green, 12GB, 256GB Storage) & Galaxy Watch5 Pro LTE (45 mm, Gray Titanium,
+                Compatible with Android only)</h1>
+            <p>
+            <ul>
+                <li>
+                    More innovation, less footprint – Galaxy S23 Ultra's striking symmetrical design returns with one
+                    major difference: recycled and eco-conscious materials. From the metal frame to the glass finish,
+                    it's polished with fresh new colors inspired by nature.
+                </li>
+                <li>
+                    Low light. Camera. Action - A Pro-grade Camera grabs brighter photos and video, dusk to dawn. The
+                    intelligent pixel sensor adapts to low light with Nightography and the camera lens tones down flare
+                    for clearer captures
+                </li>
+                <li>
+                    Sleep Tracking: Know your sleep with our new and improved sleep tracking technology. Plan your
+                    bedtime, detect snoring, understand and track your sleep.
+                </li>
+            </ul>
+            </p>
+            <h1>Price: ₹1,48,998</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="pallet">
+        <div class="imgp">
+            <img src="https://m.media-amazon.com/images/I/414+xRBltFL._SY300_SX300_.jpg">
+        </div>
+        <div>
+            <h1>OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage) </h1>
+            <p>
+            <ul>
+                <li>
+                    Camera: 50MP Main Camera with Sony IMX890 (OIS supported), 48MP Ultrawide Camera with Sony IMX581
+                    (FOV: 115 degree) and 32MP Telephoto lens with Sony IMX709 (2X Optical Zoom); 16MP Front (Selfie)
+                    Camera with EIS support
+                </li>
+                <li>
+                    Camera Modes: Photo, Video, Night, PRO, PANO, Portrait, TIME-LAPSE, SLO-MO, Text scanner, Movie,
+                    Long Exposure, Dual-view video, TILT-SHIFT, XPAN, Scan, STICKER, and AI ID photo
+                </li>
+                <li>
+                    Display: 6.7 Inches; 120 Hz AMOLED QHD Display with Corning Gorilla Glass Victus; Resolution: 3216 X
+                    1440 pixels; HDR 10+, sRGB, 10-bit Color Depth, PWM + DC dimming
+                </li>
+            </ul>
+            </p>
+            <h1>Price: ₹56,999</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="pallet">
+        <div class="imgp">
+            <img src="https://m.media-amazon.com/images/I/31uNMTjUeVL._SY300_SX300_QL70_FMwebp_.jpg">
+        </div>
+        <div>
+            <h1>Samsung Galaxy A34 5G (Awesome Graphite, 8GB, 128GB Storage) | 48 MP No Shake Cam (OIS) | IP67 | Gorilla
+                Glass 5 | Voice Focus | Without Charger</h1>
+            <p>
+            <ul>
+                <li>
+                    48MP(OIS)+8MP+5MP Triple camera setup - 48MP (F1.8) Main Camera with OIS + 8MP (F2.2) Ultra wide
+                    camera + 5MP (F2.4) depth camera | 13MP (F2.2) front camera
+                </li>
+                <li>
+                    16.65 centimeters (6.6-inch) FHD+ Super AMOLED display, FHD+ resolution with 1080 x 2340 pixels ,
+                    393 PPI with 16M colours
+                </li>
+                <li>
+                    Android 13, v13.0 operating system with MediaTek | MTK D1080 2.6GHz,2GHz Octa-Core processor
+                </li>
+            </ul>
+            </p>
+            <h1>Price: ₹27,499</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="pallet">
+        <div class="imgp">
+            <img src="https://m.media-amazon.com/images/I/41yAce7gd4L._SX300_SY300_QL70_FMwebp_.jpg">
+        </div>
+        <div>
+            <h1>iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage) | 3D Curved AMOLED Display | 4nm MediaTek Dimesity
+                7200 5G Processor | 64MP Aura Light OIS Camera | Segment's Slimmest & Lightest Smartphone</h1>
+            <p>
+            <ul>
+                <li>
+                    Dimensity 7200 5g processor based on the latest 4nm energy-efficient process
+                </li>
+                <li>
+                    3D Curved Super-vision Display with 17.22 cm (6.78 inches) screen size, 93.3% Screen-to-body ratio,
+                    120 Hz AMOLED FHD+, 1.07 Billion Colors, 1300 nits Peak Local Brightness
+                </li>
+                <li>
+                    Slimmest phone with 0.736 cm (7.36mm) thickness, Premium AG Matte Glass finish
+                </li>
+            </ul>
+            </p>
+            <h1>Price: ₹23,999</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="pallet">
+        <div class="imgp">
+            <img src="https://m.media-amazon.com/images/I/61LGDAZD+wL._SX569_.jpg">
+        </div>
+        <div>
+            <h1>Lava Storm 5G (Thunder Black, 8GB RAM, 128GB ROM)|50MP+8MP Ultrawide Dual Camera|16MP FrontCamera|6.78"
+                FHD+ Punch Hole Display|5000 mAh Battery|33W Fast Charging|Upto 16GB ExpandableRAM|Clean Android</h1>
+            <p>
+            <ul>
+                <li>
+                    (8 GB RAM,128 GB ROM); Upto 16GB Expandable RAM
+                </li>
+                <li>
+                    17.22cm(6.78") 120Hz FHD+ Punch Hole Display with Widevine L1 DRM Protection - Enjoy all your
+                    Content in High Resolution
+                </li>
+                <li>
+                    Solid Performance with 2.4 Ghz Octa Core MediaTek Dimensity 6080 Processor
+                </li>
+            </ul>
+            </p>
+            <h1>Price: ₹13,499</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="pallet">
+        <div class="imgp">
+            <img src="https://m.media-amazon.com/images/I/41nUkcbeCcL._SX300_SY300_QL70_FMwebp_.jpg">
+        </div>
+        <div>
+            <h1>
+                Pova 5 Pro 5G (Dark Illusion, 8GB RAM,128GB Storage)| Segment 1st 68W Ultra Fast Charging | 50MP AI Dual
+                Camera | India's 1st Multi-Colored Backlit ARC Interface | 6.78”FHD+ Dot-in Display
+            </h1>
+            <p>
+            <ul>
+                <li>
+                    Segment 1st 68W Ultra Fast Charging - 50% battery in just 15minutes | Bypass Charging for playing
+                    games | 5000mAh Battery | 10W Reverse Charging
+                </li>
+                <li>
+                    India's 1st Multi-colored Backlit ARC Interface | Customize New multi color light effect for
+                    Notifications, Calls, Gaming, Music and others
+                </li>
+                <li>
+                    Dimensity 6080 highly efficient 6nm 5G Processor | 2.4GHz powerful octa-core Processor with 390K
+                    antutu score | 10 5G Bands support | HyperEngine 3.0 Lite Game Engine and Panther Game Engine 3.0
+                </li>
+            </ul>
+            </p>
+            <h1>Price: ₹14,999</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+    <footer class="ab" id="ab">
+
+        <h2>About us</h2>
+        <pre>
+            Welcome to Gladiator – Where Shopping Meets Simplicity!
+    
+            At Gladiator, we believe that online shopping should be an enjoyable and hassle-free experience. We are more than just an online store; we are your go-to destination for quality products, exceptional service, and a seamless shopping journey.
+    
+        </pre>
+    
+    
+    
+        <h2>Contact Us</h2>
+        <pre>
+            If you have any questions, concerns, or feedback, feel free to contact us:
+            Email: info@yourstore.com
+            Phone: (123) 456-7890
+    
+        </pre>
+        
+    
+    </footer>
+    
+
+</body>
+
+</html>

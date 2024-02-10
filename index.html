@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online platform for buying products like mobile phones, laptops, clothes and electronics devices">
+    <title>Gladiator.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Teko:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <h1>Gladiator.com</h1>
+        <div class="menu">
+            <div class="dropdown">
+                <button class="dropbtn" id="btn1">Categories</button>
+                    <div class="dropdown-content">
+                    <a href="Electronics.html">Electronics</a>
+                    <a href="mobile.html">Mobiles</a>
+                    <a href="fashion.html">Fashion</a>
+                    <a href="laptop.html">Laptop</a>
+                    </div>
+            
+            </div>
+            <a href="#ab">About Us</a>
+            <a href="index.html">Home Page</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="btn2">Profile</button>
+                    <div class="dropdown-content">
+                    <a href="#">Credentials</a>
+                    <a href="#">My Orders</a>
+                    <a href="#">LogOut</a>
+                    </div>
+            </div>
+            <input  type="text" placeholder="Search Here">
+            <a href="#">Search</a>
+
+
+            
+        </div>
+
+
+    </div>
+    <div id="p">
+    <div class="video">
+        <iframe width="600" height="450" src="https://www.youtube.com/embed/IY4x85zqoJM" title="Hello Apple Vision Pro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="https://m.media-amazon.com/images/G/31/img22/WLA/2024/Launches24/OnePlus/Buds3/Sale/1400x800_new._CB582194147_.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://m.media-amazon.com/images/G/31/img22/Wireless/Meghana/Neo9Pro/Pre/Post/D112032990_WLD---BAU---iQOO-Neo-9-pro---Design-SIM_Homepage_1400x800._CB582365801_.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://m.media-amazon.com/images/G/31/img23/Wireless/Xiaomi/POCO/C51/GW/Feb/5th/_D117429063_IN_WLD_BAU_POCO_C51_1400x800._CB582139515_.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="https://m.media-amazon.com/images/G/31/img23/Wireless/Xiaomi/RedmiNote13/GW/Feb/1st/D116609361_INWLD_RedmiNote13_BAU_1400x800._CB583557789_.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  </div>
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+
+<div class="pallet">
+    <div class="imgp">
+        <img src="https://cdn1.smartprix.com/rx-ikqjgoHMF-w420-h420/oppo-reno-11.webp">
+    </div>
+        <div>
+            <h1>OPPO Reno 11</h1>
+            <p>OPPO Reno 11 price in India starts from ₹29,999. It is available at lowest price on Croma in India as on Feb 10, 2024. Take a look at OPPO Reno 11 detailed specifications and features.</p>
+            <h1>Price: ₹29,999</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+</div>
+<div class="pallet">
+    <div class="imgp">
+        <img src="https://cdn1.smartprix.com/rx-isH9pULQB-w420-h420/lenovo-xiaoxin-pad-p.webp">
+    </div>
+        <div>
+            <h1>Lenovo Xiaoxin Pad Pro 12.7</h1>
+            <p>Lenovo Xiaoxin Pad Pro 12.7 expected price in India starts from ₹18,499. Take a look at Lenovo Xiaoxin Pad Pro 12.7 detailed specifications and features.</p>
+            <h1>Price: ₹18,499</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+</div>
+<div class="pallet">
+    <div class="imgp">
+        <img src="https://cdn1.smartprix.com/rx-ioX3htv6I-w420-h420/canon-eos-1500d-24-1.webp">
+    </div>
+        <div>
+            <h1>Canon EOS 1500D 24.1MP DSLR Camera (EF-S 18-55mm IS II Lens)</h1>
+            <p>Canon EOS 1500D 24.1MP DSLR Camera (EF-S 18-55mm IS II Lens) price in India starts from ₹40,999. It is available at lowest price on Croma in India as on Feb 10, 2024. Take a look at Canon EOS 1500D 24.1MP DSLR Camera (EF-S 18-55mm IS II Lens) detailed specifications and features.</p>
+            <h1>Price: ₹40,999</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+</div>
+<div class="pallet">
+    <div class="imgp">
+        <img src="https://cdn1.smartprix.com/rx-iP5A5Ev73-w420-h420/iffalcon-u62-55-inch.webp">
+    </div>
+        <div>
+            <h1>iFFALCON U62 55 inch Ultra HD 4K Smart LED TV (iFF55U62)</h1>
+            <p>iFFALCON U62 55 inch Ultra HD 4K Smart LED TV (iFF55U62) price in India starts from ₹25,999. It is available at lowest price on Amazon in India as on Feb 10, 2024. Take a look at iFFALCON U62 55 inch Ultra HD 4K Smart LED TV (iFF55U62) detailed specifications and features.</p>
+            <h1>Price: ₹25,999</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+</div>
+<div class="pallet">
+    <div class="imgp">
+        <img src="https://m.media-amazon.com/images/I/315fnhjnERL._SX342_.jpg">
+    </div>
+        <div>
+            <h1>ISKO® Human Skeleton Fibre Glass Model, Movable Joints, 3 Part Skull with Removable Calvarium and Articulating Jaw, On Base, 152.4 cm Tall</h1>
+            <p>
+                DETAILED SKELETON - Our anatomical skeleton is excellent quality with lots of detail included making it the perfect companion for educational classes
+                MINI IN SIZE- This skeleton of the human body stands at 40cm tall, making it about 1ft and 3inches, the perfect mini skeleton for putting on classroom tables
+                FLEXIBLE - An anatomy model with flexible bones and removable limbs and skull so that you can teach about different body parts
+                REALISTIC BODY PARTS - The perfect teaching accessory for anatomy classes, as this human model features nerves branches and vertebral arteries</p>
+            <h1>Price: ₹5,579</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+</div>
+<div class="pallet">
+    <div class="imgp">
+        <img src="https://m.media-amazon.com/images/I/51Tw6begqYL._SY355_.jpg">
+    </div>
+        <div>
+            <h1>PAPER PLANE DESIGN Best Astronaut Mobile Stand (Kick)</h1>
+            <p>High quality resin phone or tablet stand
+            Super cute astronaut space man design
+            Fits all mobile phone and tablets
+            Universal mobile stand for office desk and home.
+            Great gifting idea for loved ones.</p>
+            <h1>Price: ₹399</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+</div>
+<div class="pallet">
+    <div class="imgp">
+        <img src="https://m.media-amazon.com/images/I/81yIS3D+UJL._SX679_.jpg">
+    </div>
+        <div>
+            <h1>Fossil Chronograph White Dial Men's Watch-CH2882</h1>
+            <p>
+                Case diameter44 Millimetres
+                Band colourBrown
+                Band material typeLeather
+                Warranty typeManufacturer
+                Watch movement typeQuartz
+                Item weight150 Grams
+                Country of OriginChina
+                </p>
+            <h1>Price: ₹5,946</h1>
+            <button onclick="window.location.href='Buy.html'">Buy Now</button>
+            <button>Add to Cart</button>
+        </div>
+</div>
+
+
+
+<footer class="ab" id="ab">
+
+    <h2>About us</h2>
+    <pre>
+        Welcome to Gladiator – Where Shopping Meets Simplicity!
+
+        At Gladiator, we believe that online shopping should be an enjoyable and hassle-free experience. We are more than just an online store; we are your go-to destination for quality products, exceptional service, and a seamless shopping journey.
+
+    </pre>
+
+
+
+    <h2>Contact Us</h2>
+    <pre>
+        If you have any questions, concerns, or feedback, feel free to contact us:
+        Email: info@yourstore.com
+        Phone: (123) 456-7890
+
+    </pre>
+    
+
+</footer>
+
+
+
+</body>
+</html>
